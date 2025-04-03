@@ -13,7 +13,7 @@ Route::get('/', Login::class);
 
 
 
-Route::get('/user', )-> middleware(['auth', 'role:user'])->name('user.deshboard');
+Route::get('/user', Login::class)->name('login');
 
 Route::get('/cliente', Cliente::class);
 

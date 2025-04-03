@@ -48,12 +48,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
-    public function isFuncionario(){
-        return $this->role === self::ROLE_FUNCIONARIO;
-    }
-
-    public function isAdmin(){
-        return $this->role === self::ROLE_ADMIN;
+    public function admin(){
+        return $this->hasOne(Administrador::class);
     }
 }
 

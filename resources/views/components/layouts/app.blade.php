@@ -1,26 +1,23 @@
 
 
-<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-    <a class="navbar-brand" href="#">Lanchonete</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a href="" class="navbar-brand">Lanchonete</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+        <a href="" class="nav-link active">Home</a>
+        <a href="" class="nav-link">Clientes</a>
+        <a href="" class="nav-link">Funcionarios</a>
+        <a href="" class="nav-link">Produtos</a>
+        <a href="" class="nav-link">Vendas</a>
+    </div>
+</div>
+
     </div>
 </nav>
 

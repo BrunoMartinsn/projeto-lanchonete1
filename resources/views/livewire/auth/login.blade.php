@@ -29,7 +29,7 @@
               
                
             </form>
-            <a class="btn btn-primary" href="/cliente" role="button">Cadastrar</a>
+            
             
             
     
